@@ -1,0 +1,54 @@
+.main-header {
+    background-color: #F8F9FA;
+    width: 100%;
+    padding: 2vh 5vh;
+    height: 20vh;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    background-color: violet;
+    width: 100%;
+    padding: 0 25%;
+}
+
+li {
+    margin: 1vw 3vw;
+    padding: 0 1vw;
+    border: 4px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin: 3vw;
+    padding: 0 1vw;
+    border: 4px solid lightgrey;
+}
+
+
+.avatar-container {
+    width: 70px; /* Largeur de l'avatar */
+    height: 70px; /* Hauteur de l'avatar */
+    border-radius: 50%; /* Crée la forme ovale en utilisant un rayon égal à la moitié de la largeur/hauteur */
+    overflow: hidden; /* Masque tout contenu qui dépasse de la forme ovale */
+    border: 4px solid grey; /* Bordure de l'avatar (facultatif) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre portée pour donner un effet d'élévation (facultatif) */
+}
+
+.avatar {
+    width: 100%; /* Ajuster la taille de l'image pour remplir l'avatar ovale */
+    height: 100%;
+    object-fit: cover; /* Assurez-vous que l'image remplit complètement l'avatar sans distorsion */
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border: 4px solid lightgrey;
+}
