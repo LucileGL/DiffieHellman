@@ -11,6 +11,7 @@ import { PageServicesComponent } from './page-services/page-services.component';
 import { PageVocabularyComponent } from './page-vocabulary/page-vocabulary.component';
 import { PageConcernedComponent } from './page-concerned/page-concerned.component';
 import { PageActorsComponent } from './page-actors/page-actors.component';
+import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PageActorsComponent } from './page-actors/page-actors.component';
     RouterModule,
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MdbModalModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
