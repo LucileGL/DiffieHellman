@@ -9,6 +9,12 @@
 }
 
 .reseaux {
-    background-color: lightblue;
-    width: 40vw;
+    background-color: white;
+    border: 3px double black;
+
+    width: 20vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
