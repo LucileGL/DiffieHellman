@@ -18,3 +18,22 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.whatsApp {
+    fill:#128C7E;
+}
+
+.telephone {
+    fill:grey;
+}
+
+.instagram {
+    color: #fff;
+    fill:#f5f5f5;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.linkedin {
+    fill:#0072b1;    
+}
