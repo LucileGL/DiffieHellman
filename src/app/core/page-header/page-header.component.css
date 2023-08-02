@@ -1,11 +1,13 @@
 .main-header {
-    background-color: #F8F9FA;
+    /*background-color: #F8F9FA;*/
+    background-image: url("../../../assets/images/fond.jpg");
     width: 100%;
     padding: 2vh 5vh;
     height: 20vh;
 }
 
 .navbar {
+    background-image: url("../../../assets/images/fond.jpg");
     justify-content: space-evenly;
     background-color: violet;
     width: 100%;
@@ -45,10 +47,15 @@ li {
 }
 
 .main {
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0 15px;
     border: 4px solid lightgrey;
+}
+
+.nav-item {
+    background-color: white;
 }
