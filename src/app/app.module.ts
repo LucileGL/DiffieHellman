@@ -17,6 +17,8 @@ import { SharedModule } from "./shared/shared.module";
 import { CompCarouselComponent } from './composants/comp-carousel/comp-carousel.component';
 import { CompCollapseComponent } from './composants/comp-collapse/comp-collapse.component';
 import { ComposantModule } from './composants/composants.module';
+import { FormModule } from '@coreui/angular';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -42,7 +44,8 @@ import { ComposantModule } from './composants/composants.module';
         NgbModule,
         MdbModalModule,
         SharedModule,
-        ComposantModule
+        ComposantModule,
+        FormsModule
     ]
 })
 export class AppModule { }

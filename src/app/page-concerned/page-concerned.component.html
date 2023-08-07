@@ -1,7 +1,22 @@
 <div class="body">
 
     <div class="main">
-    <p>concerned works!</p>
+
+        <div class="test-container" *ngIf="currentQuestionIndex < questions.length">
+            <h5>{{ questions[currentQuestionIndex].questionText}}</h5>
+            <div *ngFor="let answer of questions[currentQuestionIndex].answers">
+                <label>
+                    <input type="radio" name="selectedAnswer" [value]="answer" [(ngModel)]="selectedAnswer"> 
+                        {{answer.text}}
+                </label>
+            </div>
+            <button (click)="submitAnswer()">Soumettre</button>
+        </div>
+
+        <div *ngIf="currentQuestionIndex >= questions.length">
+            <h5>Test terminé ! Merci.</h5>
+        </div>
+
     </div>
 
 </div>
