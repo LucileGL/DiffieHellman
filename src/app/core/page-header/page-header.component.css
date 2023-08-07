@@ -1,5 +1,4 @@
 .main-header {
-    /*background-color: #F8F9FA;*/
     background-image: url("../../../assets/images/fond.jpg");
     width: 100%;
     padding: 2vh 5vh;
@@ -41,9 +40,9 @@ li {
 }
 
 .avatar {
-    width: 100%; /* Ajuster la taille de l'image pour remplir l'avatar ovale */
+    width: 100%; /* Ajuste la taille de l'image pour remplir l'avatar ovale */
     height: 100%;
-    object-fit: cover; /* Assurez-vous que l'image remplit complètement l'avatar sans distorsion */
+    object-fit: cover; /* L'image remplit complètement l'avatar sans distorsion */
 }
 
 .main {

@@ -1,7 +1,5 @@
 .globalite {
     background-color: #F8F9FA; 
-    /*background-image: url("../../assets/images/fond.jpg");*/
     height: 100vh; 
-    width: 100vw;
-    padding: 1%;
+    padding: 1% 0;
 }

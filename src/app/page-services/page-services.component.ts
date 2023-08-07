@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-page-services',
   templateUrl: './page-services.component.html',
-  styleUrls: ['./page-services.component.css']
+  styleUrls: ['./page-services.component.css'],
 })
-export class PageServicesComponent {
-
-}
+export class PageServicesComponent {}

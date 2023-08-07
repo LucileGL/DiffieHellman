@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 70px; 
+    height: 70px; 
+}
+
+.cards-topics {
+    display: inline-block;
+    border: 2px solid black;
+    height: 20vh;
+    width: 15vw;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #F8F9FA;
+}

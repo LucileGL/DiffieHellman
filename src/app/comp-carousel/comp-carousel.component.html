@@ -1,0 +1,7 @@
+<div class="main">
+    <div class="cards-topics" *ngFor="let topic of topics">
+        <img [src]="topic.photoUrl" alt="{{topic.nom}}">
+        <h5>{{topic.pourcentage}}</h5>
+        <h6>{{topic.description}}</h6>
+    </div>
+</div>

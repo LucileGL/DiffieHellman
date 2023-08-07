@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as constantes from '../shared/constants';
 
 @Component({
   selector: 'app-accueil',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./accueil.component.css']
 })
 export class AccueilComponent {
+
+  introduction: string = constantes.INTRODUCTION;
+  ManagersNumber : string = constantes.MANAGERSNUMBER;
 
 }
