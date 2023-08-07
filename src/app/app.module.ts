@@ -14,7 +14,9 @@ import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
 import { PageTestComponent } from './page-test/page-test.component';
 import { PageServicesComponent } from './page-services/page-services.component';
 import { SharedModule } from "./shared/shared.module";
-import { CompCarouselComponent } from './comp-carousel/comp-carousel.component';
+import { CompCarouselComponent } from './composants/comp-carousel/comp-carousel.component';
+import { CompCollapseComponent } from './composants/comp-collapse/comp-collapse.component';
+import { ComposantModule } from './composants/composants.module';
 
 @NgModule({
     declarations: [
@@ -27,6 +29,7 @@ import { CompCarouselComponent } from './comp-carousel/comp-carousel.component';
         PageTestComponent,
         PageServicesComponent,
         CompCarouselComponent,
+        CompCollapseComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -38,7 +41,8 @@ import { CompCarouselComponent } from './comp-carousel/comp-carousel.component';
         AppRoutingModule,
         NgbModule,
         MdbModalModule,
-        SharedModule
+        SharedModule,
+        ComposantModule
     ]
 })
 export class AppModule { }

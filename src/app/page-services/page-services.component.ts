@@ -5,4 +5,14 @@ import {Component} from '@angular/core';
   templateUrl: './page-services.component.html',
   styleUrls: ['./page-services.component.css'],
 })
-export class PageServicesComponent {}
+export class PageServicesComponent {
+
+  visible = false;
+
+  constructor() { }
+
+  toggleCollapse(): void {
+    this.visible = !this.visible;
+  }
+
+}
