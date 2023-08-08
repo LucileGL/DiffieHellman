@@ -2,19 +2,27 @@
 
     <div class="main">
 
-        <div class="test-container" *ngIf="currentQuestionIndex < questions.length">
-            <h5>{{ questions[currentQuestionIndex].questionText}}</h5>
-            <div *ngFor="let answer of questions[currentQuestionIndex].answers">
-                <label>
-                    <input type="radio" name="selectedAnswer" [value]="answer" [(ngModel)]="selectedAnswer"> 
-                        {{answer.text}}
-                </label>
+        <div class="test-container" *ngIf="!result">
+
+            <div class="title">
+                <b><h3>Are you concerned by modern cybersecurity issues</h3></b>
             </div>
-            <button (click)="submitAnswer()">Soumettre</button>
+
+            <div *ngFor="let question of questions; let i = index">
+                <h5>{{ questions[i].questionText}}</h5>
+                    <div *ngFor="let answer of question.answers">
+                        <label>
+                            <input type ="radio" name="question {{ i }}" [(ngModel)]="selectedAnswers[i]" [value]="answer.points">
+                            {{ answer.text }}
+                        </label>
+                    </div>
+            </div>
+            <button (click)="calculateResult()">Soumettre</button>
         </div>
 
-        <div *ngIf="currentQuestionIndex >= questions.length">
+        <div *ngIf="result">
             <h5>Test terminé ! Merci.</h5>
+            <p>{{result}}</p>
         </div>
 
     </div>
