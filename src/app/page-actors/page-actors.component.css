@@ -11,4 +11,33 @@
 
     height: 85%;
     width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.compagny {
+    height: 50vh;
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.norms {
+    height: 50vh;
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    width: 40vw;
 }
