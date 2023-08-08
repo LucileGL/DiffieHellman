@@ -36,7 +36,7 @@ export class PageConcernedComponent {
       answers: [
         {text: 'Echange obligatoire / Risque de piratage majeur', points : 1000},
         {text: 'Données sensibles mais à faible valeur économique', points : 100},
-        {text: '', points : 1}
+        {text: 'Uniquement des données déjà connues de tous', points : 1}
       ]
     }
 

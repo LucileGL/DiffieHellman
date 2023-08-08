@@ -11,13 +11,11 @@ import { PageVocabularyComponent } from './page-vocabulary/page-vocabulary.compo
 import { PageConcernedComponent } from './page-concerned/page-concerned.component';
 import { PageActorsComponent } from './page-actors/page-actors.component';
 import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
-import { PageTestComponent } from './page-test/page-test.component';
 import { PageServicesComponent } from './page-services/page-services.component';
 import { SharedModule } from "./shared/shared.module";
 import { CompCarouselComponent } from './composants/comp-carousel/comp-carousel.component';
 import { CompCollapseComponent } from './composants/comp-collapse/comp-collapse.component';
 import { ComposantModule } from './composants/composants.module';
-import { FormModule } from '@coreui/angular';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -28,7 +26,6 @@ import { FormsModule } from '@angular/forms';
         PageVocabularyComponent,
         PageConcernedComponent,
         PageActorsComponent,
-        PageTestComponent,
         PageServicesComponent,
         CompCarouselComponent,
         CompCollapseComponent,
