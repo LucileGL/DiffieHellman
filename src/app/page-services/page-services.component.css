@@ -42,3 +42,12 @@ button {
 .form {
     height: 110vh;
 }
+
+.form-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    height : 10%;
+}
