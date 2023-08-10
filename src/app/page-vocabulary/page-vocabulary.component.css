@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.name {
+.definition {
 
     height: 56vh;
     width: 30vw;
@@ -37,6 +37,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     margin: 20px;
 }
@@ -53,4 +54,5 @@
     justify-content: space-around;
     align-items: center;
 
+    flex-wrap: wrap;
 }
